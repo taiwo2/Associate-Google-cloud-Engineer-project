@@ -26,8 +26,5 @@ Click Create instance.
 Click Choose MySQL.
 Specify the following, and leave the remaining settings as their defaults:
 ![setup](./setup.png)
-Expand #Show configuration options.
 
-Expand the #Machine type# section.
-
-Provision the right amount of vCPU and memory. To choose a #Machine Type#, click the dropdown menu, and then explore your options.
+Provision the right amount of vCPU and memory. To choose a **Machine Type**, click the dropdown menu, and then explore your options.
