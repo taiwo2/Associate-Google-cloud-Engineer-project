@@ -91,7 +91,8 @@ Go to the **wordpress-proxy** external IP address in your browser and configure 
 
 Click **Let's Go.**
 
-Specify the following, replacing [ROOT_PASSWORD] with the password you configured upon machine creation, and leave the remaining settings as their defaults:
+Specify the following, replacing [ROOT_PASSWORD] with the password you configured upon machine creation, and leave the remaining settings as their defaults: <br>
+
 ![root](./root.png) <br>
 
 Click Submit. <br>
@@ -121,13 +122,14 @@ Click Let's Go. <br>
 
 Specify the following, and leave the remaining settings as their defaults: <br>
 ![base](./base.png) <br>
-Click **Submit **<br>
+
+Click **Submit**<br>
 Click Run the installation. <br>
 An 'Already Installed!' window is displayed, which means that your application is connected to the Cloud SQL server over private IP. <br>
 
 In your web browser's address bar, remove the text after the IP address and press ENTER.
 You'll be presented with a working Wordpress Blog! <br>
 
-![blog](./blog.png)
+![blog](./blog.png) <br>
 
 In this lab,  have created a Cloud SQL database and configured it to use both an external connection over a secure proxy and a Private IP address, which is more secure and performant. Remember that you can only connect via Private IP if the application and the Cloud SQL server are collocated in the same region and are part of the same VPC network. If your application is hosted in another region, VPC, or even project, use a proxy to secure its connection over the external connection.
