@@ -38,4 +38,4 @@ Click the Set up Connection button that appears.
 
 In the panel to the right, click Enable API, click Use an automatically allocated IP range, click Continue, and then click Create Connection.
 
-Click Create Instance at the bottom of the page to create the database instance.##
+Click Create Instance at the bottom of the page to create the database instance.
