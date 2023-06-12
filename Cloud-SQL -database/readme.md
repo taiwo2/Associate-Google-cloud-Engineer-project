@@ -51,7 +51,7 @@ On the Navigation menu (Navigation menu icon) click Compute Engine. <br>
 Click SSH next to wordpress-proxy. <br>
 
 Download the Cloud SQL Proxy and make it executable: <br>
-    ##wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy && chmod +x cloud_sql_proxy
+      ##wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy && chmod +x cloud_sql_proxy
 
 In order to start the proxy, you need the connection name of the Cloud SQL instance. Keep your SSH window open and return to the Cloud Console. <br>
 
@@ -68,7 +68,8 @@ Click Create database, type wordpress, which is the name the application expects
 Return to the SSH window and save the connection name in an environment variable, replacing [SQL_CONNECTION_NAME] with the unique name you copied in a previous step: <br>
 
     ##export SQL_CONNECTION=[SQL_CONNECTION_NAME]
-    To verify that the environment variable is set, run:
+To verify that the environment variable is set, run:
+
     ##echo $SQL_CONNECTION
 The connection name should be printed out.
 
