@@ -4,9 +4,6 @@ For each lab, you get a new Google Cloud project and set of resources for a fixe
 
 Sign in to Qwiklabs using an incognito window.
 
-Note the lab's access time (for example, 1:15:00), and make sure you can finish within that time.
-There is no pause feature. You can restart if needed, but you have to start at the beginning.
-
 When ready, click Start lab.
 
 Note your lab credentials (Username and Password). You will use them to sign in to the Google Cloud Console.
@@ -21,10 +18,10 @@ Accept the terms and skip the recovery resource page.
 ## Task 1. Create a Cloud SQL database
 In this task, you configure a SQL server according to Google Cloud best practices and create a Private IP connection.
 
-On the Navigation menu (Navigation menu icon), click SQL.
-Click Create instance.
-Click Choose MySQL.
-Specify the following, and leave the remaining settings as their defaults:
-![setup](./setup.png)
+On the Navigation menu (Navigation menu icon), click **SQL**.<br>
+Click Create instance.<br>
+Click Choose MySQL.<br>
+Specify the following, and leave the remaining settings as their defaults:<br>
+![setup](./setup.png) <br>
 
 Provision the right amount of vCPU and memory. To choose a **Machine Type**, click the dropdown menu, and then explore your options.
